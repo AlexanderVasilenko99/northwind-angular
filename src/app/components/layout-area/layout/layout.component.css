@@ -1,0 +1,16 @@
+div {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 5% 12% 83%;
+    border: 1px solid #7D0A0A;
+    box-sizing: border-box;
+}
+
+div,
+div>* {
+    border: 1px solid #7D0A0A;
+}
+
+main {
+    overflow: hidden;
+}

@@ -1,0 +1,12 @@
+div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* app-logo {
+    margin-right: auto;
+} */
+h1{
+    color: #7D0A0A;
+}
