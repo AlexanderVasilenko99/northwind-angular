@@ -1,0 +1,9 @@
+.product_card{
+    border: 1px solid;
+    width: 300px;
+    height: fit-content;
+    background-color: maroon;
+}
+img{
+    width: 300px;
+}

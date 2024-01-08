@@ -1,2 +1,7 @@
 <p [title]="randomTitle" [style]="styling">Welcome to my northwind website!</p>
 <app-clock></app-clock>
+<!-- <img [src]="imgSrc" alt="market_image"> -->
+<img *ngIf="num === 1" src="../../../../assets/images/market1.jpg" alt="">
+<img *ngIf="num === 2" src="../../../../assets/images/market2.jpg" alt="">
+<hr>
+<app-test-generator></app-test-generator>

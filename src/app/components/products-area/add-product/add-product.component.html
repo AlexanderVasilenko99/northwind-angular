@@ -1,1 +1,23 @@
 <p>add-product works!</p>
+<form (ngSubmit)="send()">
+    <label for="">Name: </label>
+    <input type="text" name="name" [(ngModel)]="product.name">
+
+    <br>
+
+    <label for="">Price: </label>
+    <input type="number" name="price" [(ngModel)]="product.price">
+
+    <br>
+
+    <label for="">Stock: </label>
+    <input type="number" name="stock" [(ngModel)]="product.stock">
+
+    <br>
+
+    <label for="">Image: </label>
+    <input type="file" name="image" (change)="saveImage($event)" >
+
+
+    <button>Add</button>
+</form>
