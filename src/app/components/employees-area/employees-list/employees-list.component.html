@@ -1,0 +1,27 @@
+<p>Our Employees:</p>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>firstName</th>
+            <th>lastName</th>
+            <th>title</th>
+            <th>country</th>
+            <th>city</th>
+            <th>birthday</th>
+            <th>image</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of employees">
+            <td>{{e.id}}</td>
+            <td>{{e.firstName}}</td>
+            <td>{{e.lastName}}</td>
+            <td>{{e.title}}</td>
+            <td>{{e.country}}</td>
+            <td>{{e.city}}</td>
+            <td>{{e.birthDate}}</td>
+            <td><img [src]="e.imageUrl" alt=""></td>
+        </tr>
+    </tbody>
+</table>
